@@ -1,0 +1,41 @@
+{
+  "name": "minimalistBoilerplateReact",
+  "version": "1.0.0",
+  "description": "Essentiel react/ webpack/ Babel config to start your react hacking Edit Add topics",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jappaa/minimalistBoilerplateReact.git"
+  },
+  "keywords": [],
+  "author": "npm-dev <noreply@marketlogicsoftware.com>",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/jappaa/minimalistBoilerplateReact/issues"
+  },
+  "homepage": "https://github.com/jappaa/minimalistBoilerplateReact#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
